@@ -18,7 +18,7 @@ namespace DatingApp.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "niko", "changed" };
+            return new string[] { "fromlaptop", "changed" };
         }
 
         // GET api/values/5
